@@ -1,0 +1,348 @@
+.section1{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(215, 40, 40);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.section1 svg{
+    height:30px;
+    margin-left: 40px;
+    margin-top: 26px;
+    float: left;
+}
+
+.ebook{
+    font-size: 40px;
+    font-weight: 900;
+    float: left;
+    margin-top: 17px;
+    color: white;
+}
+
+ul li{
+    float: left;
+    list-style: none;
+    margin: 14px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+ul{
+    float: left;
+  
+    margin-left: 300px;
+}
+
+
+.download{
+    padding: 30px;
+    float: left;
+}
+
+.download button{
+    padding: 10px;
+    width: 120px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+
+
+.section2{
+    height: 500px;
+    width: 100%;
+    background-image:url(pxfuel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-top: -25px;
+}
+
+.section2 p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 70px;
+    padding-top: 100px;
+    color:rgba(198, 180, 49, 0.847);
+}
+
+
+.section2 h1{
+    color: white;
+    margin-left: 70px;
+    font-size: 50px;
+}
+
+
+.section2 img{
+    height:660px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+
+.section2 button{
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 70px;
+    color: white;
+    background-color: rgba(251, 160, 49, 0.847);
+    border: none;
+}
+
+
+.section2 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+.section3{
+    height: 150px;
+    width: 700px;
+    background-color: rgba(251, 160, 49, 0.847);
+   
+}
+
+.section3 img{
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+
+.in-three{
+    padding-top: 45px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.in-three h1{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+
+.in-three svg{
+    height: 17px;
+
+}
+
+.stars{
+    padding-left: 100px;
+
+}
+
+
+
+.section4{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section4 img{
+    height: 380px;
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-right: 100px;
+}
+
+
+.modern{
+    padding-top: 70px;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(251, 160, 49, 0.847);
+}
+
+.section4 h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.p{
+    font-size: 19px;
+  
+}
+
+
+.preview{
+    text-align: center;
+}
+
+.section5{
+    width: 100%;
+    height: 2000px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.inside{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(251, 160, 49, 0.847);
+}
+
+
+.left{
+    border:3px solid rgba(251, 93, 49, 0.847);
+    width: 27%;
+    height: 450px;
+    border-radius: 20px;
+    position: sticky;
+    margin-left: 50px;
+    padding-right: -20px;
+    margin-right: 45px;
+    text-align: center;
+}
+
+
+.btn1{
+    width: 280px;
+    text-align: left;
+    border-radius: 50px;
+    background-color: rgba(134, 215, 250, 0.4);
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 40px;
+    color:slategray;
+}
+
+.btn1:hover{
+    background-color: rgba(251, 93, 49, 0.847);
+    cursor:pointer;
+    color: white;
+}
+
+
+.btn2{
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 280px;
+    background-color: rgba(134, 215, 250, 0.4);
+    border: none;
+    text-align: left;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color:slategray;
+}
+
+.btn2 span{
+    font-weight: 100;
+}
+
+
+.btn2:hover{
+    background-color: rgba(251, 93, 49, 0.847);
+    cursor:pointer;
+    color: white;
+}
+
+
+.btn3{
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 280px;
+    padding: 20px;
+    background-color: rgba(134, 215, 250, 0.4);
+    border: none;
+    text-align: left;
+    padding: 20px;
+    font-size: 17px;
+    font-weight:700;
+    color:slategray;
+}
+
+.btn3 span{
+    font-weight: 100;
+}
+
+.btn3:hover{
+    background-color: rgba(251, 93, 49, 0.847);
+    cursor:pointer;
+    color: white;
+}
+
+
+.btn4{
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 280px;
+    background-color: rgba(134, 215, 250, 0.4);
+    border: none;
+    text-align: left;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color:slategray;
+}
+
+.btn4 span{
+    font-weight: 100;
+}
+
+
+.btn4:hover{
+    background-color: rgba(251, 93, 49, 0.847);
+    cursor:pointer;
+    color: white;
+}
+
+.btn5{
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 280px;
+    background-color: rgba(134, 215, 250, 0.4);
+    border: none;
+    text-align: left;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color:slategray;
+}
+
+.btn5 span{
+    font-weight: 100;
+}
+
+.btn5:hover{
+    background-color: rgba(251, 93, 49, 0.847);
+    cursor:pointer;
+    color: white;
+}
+
+
+.right{
+    width: 60%;
+}
+
+.right h2{
+    font-size: 30px;
+}
+
+
+
